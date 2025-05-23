@@ -2,10 +2,8 @@
   "presets": [
     ["@babel/preset-env", {
       "targets": {
-        "chrome": "88"
-      },
-      "useBuiltIns": "usage",
-      "corejs": 3
+        "node": "current"
+      }
     }]
   ]
 }
