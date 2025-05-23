@@ -1,10 +1,16 @@
 {
-  "dependencies": {
-    "@babel/core": "^7.27.1"
+  "name": "mailgeek-chrome-extension",
+  "version": "1.0.0",
+  "description": "MailGeek Chrome Extension",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "devDependencies": {
-    "@babel/cli": "^7.27.2",
-    "@babel/preset-env": "^7.27.2",
-    "vitest": "^3.1.4"
+    "@babel/cli": "^7.x",
+    "@babel/core": "^7.x",
+    "@babel/preset-env": "^7.x",
+    "vitest": "^1.x"
   }
 }
